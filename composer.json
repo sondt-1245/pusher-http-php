@@ -1,5 +1,5 @@
 {
-    "name": "pusher/pusher-php-server",
+    "name": "sondt-1245/pusher-php-server",
     "description" : "Library for interacting with the Pusher REST API",
     "keywords": ["php-pusher-server", "pusher", "rest", "realtime", "real-time", "real time", "messaging", "push", "trigger", "publish", "events"],
     "license": "MIT",

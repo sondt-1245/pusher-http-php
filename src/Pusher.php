@@ -410,7 +410,7 @@ class Pusher implements LoggerAwareInterface, PusherInterface
 
         $params = array_merge($signature, $query_params);
         $query_string = self::array_implode('=', '&', $params);
-        $full_path = $path . "?" . $query_string;
+        $full_path = $this->channels_url_prefix() . $path . "?" . $query_string;
         return new Request('POST', $full_path, $headers, $post_value);
     }
 
